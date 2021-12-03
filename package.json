@@ -1,0 +1,28 @@
+{
+    "name": "chac-icewarp",
+    "version": "0.0.1",
+    "description": "A node wrapper for the IceWarp API",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build" : "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ChacMaster/chac-icewarp.git"
+    },
+    "keywords": [
+        "npm",
+        "icewarp"
+    ],
+    "author": "Carlos Carvalho",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ChacMaster/chac-icewarp/issues"
+    },
+    "homepage": "https://github.com/ChacMaster/chac-icewarp#readme",
+    "files": ["lib/**/*"],
+    "devDependencies": {
+        "typescript": "^4.5.2"
+    }
+}
